@@ -13,7 +13,7 @@ import static org.fest.assertions.api.ANDROID.assertThat;
  * @author matthieu
  */
 @RunWith(RobolectricGradleTestRunner.class)
-@Config(constants = BuildConfig.class, emulateSdk = 21)
+@Config(constants = BuildConfig.class)
 public class MainActivityTest {
 
     private static final String TAG = MainActivityTest.class.getSimpleName();
